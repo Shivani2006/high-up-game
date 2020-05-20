@@ -82,7 +82,7 @@ function draw(){
   
   if(gameState == "PLAY"){
    sky.velocityX = -(6+3*score/50);
-    if (sky.x < 350){ 
+    if (sky.x < displayWidth-sky.width/2){ 
       sky.x = sky.width/2;
     }
     
